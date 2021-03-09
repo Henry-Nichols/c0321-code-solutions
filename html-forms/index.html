@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>HTML Forms</title>
+</head>
+<style>
+  body {
+    background-image: linear-gradient(to right, rgb(182, 31, 182) , rgba(0, 0, 255, 0.836));
+  }
+  div {
+    font-weight: 600;
+  }
+</style>
+<body>
+  <h1>Coding Form!</h1>
+  <form action="">
+      <label for="email">Email</label><br>
+      <input type="email" id="email">
+
+
+    <div>
+      <label for="select">Why is coding cool?</label><br>
+      <select name="select" id="select">
+        <option value="Select an option">Select an option</option>
+        <option value="Because it's interesting">Because it's interesting</option>
+        <option value="Because it's fun">Because it's fun</option>
+        <option value="Because it's powerful">Because it's powerful</option>
+      </select>
+
+      <div>
+        <div>Favorite Language (choose one)</div>
+        <input type="radio" id="html" name="language" value="html"/>
+        <label for="html">HTML</label>
+        <input type="radio" id="css" name="language" value="css"/>
+        <label for="css">CSS</label>
+        <input type="radio" id="javascript" name="language" value="javascript"/>
+        <label for="javascript">JavaScript</label>
+      </div>
+
+      <div>
+        <div>Would you like to sign up for more information?</div>
+        <input type="checkbox" id="signup"/>
+        <label for="signup">Sign me up!</label>
+      </div>
+
+      <div>
+        <label for="comment">Comments</label><br>
+        <textarea id="comment" name="comments" cols="30" rows="10"></textarea>
+        <div>
+          <input type="submit" name="submit" value="submit">
+        </div>
+      </div>
+    </div>
+  </form>
+</body>
+</html>
