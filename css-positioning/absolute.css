@@ -20,7 +20,7 @@
   /* your code here */
   position: absolute;
   top: 5px;
-  left: 230px;
+  right: 10px;
 }
 
 .joke {
@@ -34,7 +34,7 @@
 
   /* your code here */
   position: absolute;
-  top: 160px;
+  bottom: 0;
   width: 300px;
 }
 
