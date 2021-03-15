@@ -16,22 +16,22 @@
   width: 100%;
 }
 
-.column-h1 {
+.column-full {
   width: 100%;
 }
 
-.column-link {
+.column-third {
   width: calc(100% / 3);
 }
 
-.column-four {
+.column-fourth {
   width: 100%;
 }
 
-.column-para {
+.column-two-third {
   width: calc(200% / 3);
 }
 
-.column-character-img {
+.column-one-third {
   width: calc(100% / 3);
 }
