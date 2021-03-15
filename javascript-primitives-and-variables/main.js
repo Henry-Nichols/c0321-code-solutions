@@ -3,7 +3,7 @@ var fullName = 'Henry Nichols';
 var isCool = false;
 var totalPets = 1;
 var unknown = null;
-var never =
+var never;
 
 console.log('value of fullName: ', fullName);
 console.log('value of isCool: ', isCool);
