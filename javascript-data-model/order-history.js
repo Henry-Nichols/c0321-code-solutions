@@ -1,20 +1,3 @@
-var item = {
-  title: String,
-  author: String,
-  image: String,
-  price: Number,
-  returnWindow: Date
-};
-
-var order = {
-  items: [item],
-  orderId: String,
-  orderDate: Date,
-  orderTotal: Number,
-  shipTo: String,
-  deliveryDate: Date,
-  deliveryNotes: String
-};
 
 var orderHistory = [
   {
