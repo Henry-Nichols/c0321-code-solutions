@@ -19,8 +19,6 @@
 .nav-container {
   display: flex;
   justify-content: space-between;
-
-  /* border: 1px solid red; */
   width: 100%;
   border-bottom: 1px solid rgba(119, 119, 119, 0.342);
   padding-bottom: 15px;
@@ -62,7 +60,7 @@ button {
 }
 
 .emr-title {
-  margin-bottom: -20px;
+  line-height: 5px;
 }
 
 .hero-txt {
@@ -109,16 +107,16 @@ button {
 .ready-container {
   display: flex;
   justify-content: space-between;
-
-  /* border: 1px solid red; */
   width: 85%;
 }
 
 .ready-button {
-  width: 150%;
+  width: 100%;
   margin-top: 15px;
   padding-top: 10px;
   padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .info-container {
