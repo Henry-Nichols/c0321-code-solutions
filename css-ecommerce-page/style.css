@@ -21,15 +21,17 @@ span {
 
 mark {
   margin-right: 5px;
-  background-color: peachpuff;
+  background-color: rgb(255, 242, 231);
   font-weight: 600;
   font-size: 15px;
 }
 
 img {
-  width: 300px;
+  width: 260px;
   height: 400px;
   object-fit: cover;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .header {
