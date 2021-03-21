@@ -1,7 +1,5 @@
 * {
   font-family: Lato, sans-serif;
-  font-style: normal;
-  font-weight: 400;
 }
 
 body {
@@ -11,45 +9,32 @@ body {
 h2 {
   color: white;
   text-align: center;
+  font-size: 30px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  font-weight: 500;
 }
 
-p {
-  font-size: smaller;
+h3 {
+  font-weight: 500;
 }
 
 .container {
-  background-color: rgb(25, 150, 218);
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
-
-  /* border: 1px solid red; */
-}
-
-.column-div {
-  width: 320px;
-  text-align: center;
-  color: rgb(255, 255, 255);
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 .icon {
-  max-width: 35px;
-  max-height: 35px;
+  max-width: 45px;
+  max-height: 45px;
   background-color: white;
 }
 
-.container-two {
-  display: flex;
-  align-content: center;
-}
-
 .image-div {
-  width: 75px;
-  height: 75px;
+  width: 90px;
+  height: 90px;
   background-color: white;
   border-radius: 150px;
   display: flex;
@@ -57,18 +42,21 @@ p {
   justify-content: center;
 }
 
-.column-center {
+.column {
   text-align: center;
   color: rgb(255, 255, 255);
   align-items: center;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   width: 320px;
+  height: 275px;
+  margin-left: 15px;
 }
 
-.para {
-  /* border: red solid 1px; */
-  padding-left: 20%;
-  padding-right: 20%;
+p {
+  line-height: 20px;
+  font-size: 15px;
+  padding-left: 10%;
+  padding-right: 10%;
+  opacity: 0.8;
 }
