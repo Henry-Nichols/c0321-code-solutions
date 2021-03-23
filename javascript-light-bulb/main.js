@@ -1,15 +1,18 @@
-var bodyBackGround = document.querySelector('body');
-var light = document.getElementById('bulb');
+var bodyBackGround = document.querySelector('.body-on');
+var light = document.querySelector('#bulb');
 
 var lightIsOn = true;
 light.addEventListener('click', function (e) {
   lightIsOn = !lightIsOn;
   if (!lightIsOn) {
     light.classList.add('light-off');
-    bodyBackGround.style.backgroundColor = 'rgb(17,17,17)';
+    bodyBackGround.classList.remove('body-on');
+    bodyBackGround.classList.add('body-off');
+
   } else {
     light.classList.remove('light-off');
     light.classList.add('light-on');
-    bodyBackGround.style.backgroundColor = 'rgb(254,249,241)';
+    bodyBackGround.classList.remove('body-off');
+    bodyBackGround.classList.add('body-on');
   }
 });
