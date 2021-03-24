@@ -47,10 +47,8 @@ section {
 
 .custom-button:hover {
   background-color: red;
-  transition: 0.5s;
 }
 
 .card:hover {
-  transition: 0.5s;
   transform: scale(1.1);
 }
