@@ -90,7 +90,7 @@ function renderPokemon(pokemon) {
 
 var divRow = document.querySelector('.row');
 
-pokedex.forEach(pokemon => {
-  var temp = renderPokemon(pokemon);
+for (var i = 0; i < pokedex.length; i++) {
+  var temp = renderPokemon(pokedex[i]);
   divRow.appendChild(temp);
-});
+}
