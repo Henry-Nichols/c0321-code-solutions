@@ -6,10 +6,7 @@ console.log(books, typeof books);
 
 console.log(JSON.stringify(books), typeof books);
 
-var student = '{' +
-  '"Number id" : "299513512",' +
-  '"String Name"  : "Henry"' +
-  '}';
+var student = '{ "id" : "299513512", "Name"  : "Henry" }';
 
 console.log(student, typeof student);
 
