@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <script>
+    const book1 = {
+      title: 'Goodnight Punpun',
+      author: 'Inio Asano',
+      libraryID: 3353
+    };
+
+    const {
+      title: x,
+      author: z,
+      libraryID: y
+    } = book1;
+
+    console.log(`The title of the book is ${x}, the author is ${z}, and the library id is ${y}.`);
+
+    const book2 = {
+      title: 'Les Fleurs du mal',
+      author: 'Charles Baudelaire',
+      libraryID: 2345
+    };
+
+    const {
+      title: a,
+      author: b,
+      libraryID: c
+    } = book2;
+
+    console.log(`The title of the book is ${a}, the author is ${b}, and the library id is ${c}.`);
+
+    const library = [
+      {
+        title: 'The Road Ahead',
+        author: 'Bill Gates',
+        libraryID: 1254
+      },
+      {
+        title: 'Walter Isaacson',
+        author: 'Steve Jobs',
+        libraryID: 4264
+      },
+      {
+        title: 'Mockingjay: The Final Book of The Hunger Games',
+        author: 'Suzanne Collins',
+        libraryID: 3245
+      },
+      {
+        title: "Dead Dead Demon's De De De De Destruction",
+        author: 'Inio Asano',
+        libraryID: 1233
+      }
+    ];
+
+    const [book3, book4, book5] = library;
+    console.log(book3, book4, book5);
+
+    const { 3: book6 } = library;
+    console.log(book6);
+  </script>
+</body>
+</html>
