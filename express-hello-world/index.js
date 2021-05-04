@@ -2,8 +2,7 @@ const express = require('express')
 const app = express();
 
 app.use(function (req, res) {
-  console.log('Time:', Date.now());
-  res.send('Hello WOrld from henry')
+  res.send('Hello World')
 });
 
 app.listen(3000, () => {
